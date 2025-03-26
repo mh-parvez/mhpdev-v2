@@ -1,0 +1,60 @@
+@use "../base/variables" as *;
+
+.project-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 2rem;
+
+  @media (max-width: $breakpoint-sm) {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+}
+
+.image-area,
+.content-area {
+  height: 300px;
+}
+
+.image-area {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.1rem;
+
+  .img-box {
+    background: rgb(245, 243, 243);
+    height: 100%;
+  }
+}
+
+.content-area {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  ul {
+    margin: 2em 0;
+
+    li {
+      margin: 1em 0;
+    }
+  }
+
+  @media (max-width: $breakpoint-sm) {
+    height: auto;
+
+    ul {
+      margin: 1em 0;
+    }
+  }
+}
+
+.content-area-reverse {
+  order: -1;
+
+  @media (max-width: $breakpoint-sm) {
+    order: 0;
+  }
+}

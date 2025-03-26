@@ -1,0 +1,15 @@
+.cursor {
+  position: relative;
+  pointer-events: none;
+}
+
+.cursor .box {
+  position: absolute;
+  top: -300px;
+  z-index: -10;
+  width: 330px;
+  height: 330px;
+  border-radius: 100%;
+  background: rgba(3, 195, 248, 0.126);
+  transform-origin: center 200px;
+}

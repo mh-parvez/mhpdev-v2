@@ -1,0 +1,41 @@
+@use "../base/variables" as *;
+
+.about-container {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2rem 3rem;
+
+  @media (max-width: $breakpoint-sm) {
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
+  }
+}
+
+.about-me,
+.about-skill {
+  width: 45%;
+
+  h3 {
+    // font-family: $logo-font;
+    margin-bottom: 1rem;
+    text-decoration: underline wavy $text-light;
+    text-underline-offset: 0.5em;
+    margin-bottom: 2em;
+  }
+
+  ul {
+    li {
+      margin-bottom: 1rem;
+    }
+  }
+
+  @media (max-width: $breakpoint-sm) {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+}
