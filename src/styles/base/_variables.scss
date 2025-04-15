@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Candal&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+HU:wght@100..400&family=Signika+Negative:wght@300..700&display=swap');
+
+/* Color Palette */
+$background-light: #FFF; 
+$text-light: #141414f2; 
+
+$background-dark: #1E1F23;
+$text-dark:#FBFDFD;
+
+/* Font Settings */
+$font-family-base: "Open Sans", sans-serif;
+$font-family-heading: "Candal", sans-serif;
+$logo-font: "Playwrite HU", cursive;
+$font-size-base: 16px;
+$line-height-base: 1.6;
+
+/* Spacing (Padding & Margin) */
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 24px;
+$spacing-xl: 32px;
+
+/* Border Radius */
+$border-radius-sm: 4px;
+$border-radius-md: 8px;
+$border-radius-lg: 12px;
+
+/* Shadows */
+$box-shadow-sm: 0px 2px 4px rgba(0, 0, 0, 0.1);
+$box-shadow-md: 0px 4px 8px rgba(0, 0, 0, 0.15);
+$box-shadow-lg: 0px 6px 12px rgba(0, 0, 0, 0.2);
+
+/* Breakpoints */
+$breakpoint-xs: 480px;
+$breakpoint-sm: 768px;
+$breakpoint-md: 992px;
+$breakpoint-lg: 1200px;

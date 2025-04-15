@@ -1,0 +1,106 @@
+@use "../base/variables" as *;
+
+.project {
+  display: flex;
+  flex-direction: column;
+     
+  @media (max-width: $breakpoint-md) {
+    padding-top: 89px;
+  }
+}
+
+.project-container {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-content: center;
+  justify-content: center;
+   
+  @media (max-width: $breakpoint-md) {
+    height: auto;
+    grid-template-columns: 1fr;
+    padding: .4rem;
+    padding-top: 1em;
+    margin-bottom: 1em;
+  }
+}
+
+.image-area,
+.content-area {
+  height: 300px;
+}
+
+.image-area {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+
+  .img-box {
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      transition: transform .3s ease-in;
+      
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+}
+
+.content-area {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  h2 {
+    font-weight: 200;
+  }
+
+  ul {
+    margin: 2em 0;
+
+    li {
+      margin: 1em 0;
+    }
+  }
+
+  .project-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: .3em;
+      color: #C6C8CA;;
+      font-weight: 600;
+
+      &:hover {
+        color: #fff;
+      }
+
+      svg {
+        font-size: 1.2em;
+      }
+    }
+  }
+
+  @media (max-width: $breakpoint-sm) {
+    height: auto;
+    order: 3;
+
+    ul {
+      margin: 1em 0;
+    }
+  }
+}

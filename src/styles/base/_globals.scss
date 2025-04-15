@@ -1,0 +1,50 @@
+@use "./variables" as *;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #212830;
+  color: #C6C8CA;
+  font-family: $font-family-base;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-heading;
+} 
+
+p {
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+}
+
+a {
+  color: $text-light;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px; // Default max-width
+  margin: 0 auto;
+  overflow: hidden;
+ 
+  @media (max-width: $breakpoint-lg) {
+    max-width: 960px;
+  }
+
+  @media (max-width: $breakpoint-md) {
+    max-width: 720px;
+  }
+
+  @media (max-width: $breakpoint-sm) {
+    max-width: 540px;
+  }
+
+  @media (max-width: $breakpoint-xs) {
+    max-width: 100%; // Full width on extra small screens
+    padding: 0 12px;
+  }
+}

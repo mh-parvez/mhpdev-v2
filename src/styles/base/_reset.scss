@@ -1,0 +1,43 @@
+/* Reset Box Model */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Remove default list styles */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove default anchor styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove default button styles */
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* Remove default input & textarea styles */
+input,
+textarea {
+  border: none;
+  outline: none;
+  font-family: inherit;
+}
+
+/* Remove default image spacing */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
