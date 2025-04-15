@@ -3,7 +3,7 @@ import Home from './layouts/Home';
 import About from './layouts/About';
 import Project from './layouts/Project';
 import Contact from './layouts/Contact';
-
+     
 const App = () => {
   return (
 		<div>
