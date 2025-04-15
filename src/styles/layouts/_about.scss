@@ -13,8 +13,8 @@
     height: auto;
     flex-direction: column;
     align-items: center;
-    padding-top: 89px;
-    padding: .5rem;
+    padding-inline: .6rem;
+    padding-block-end: 1em;
   }
 }
 
@@ -38,6 +38,6 @@
 
   @media (max-width: $breakpoint-md) {
     width: 100%;
-    margin-bottom: 2rem;
+    margin-bottom: .5rem;
   }
 }
