@@ -29,7 +29,7 @@
 
 .image-area,
 .content-area {
-  height: 300px;
+  height: 320px;
 }
 
 .image-area {
@@ -44,6 +44,7 @@
       width: 100%;
       height: 150px;
       object-fit: cover;
+      object-position: center;
       transition: transform .3s ease-in;
       
       &:hover {

@@ -30,9 +30,9 @@ nav {
 
     a {
       text-decoration: none;
-      font-size: 1.1em;
-      font-weight: 500;
       color: #C6C8CA;
+      font-weight: 400;
+      font-size: 1em;
 
       @media (max-width: 900px) {
         display: none;
@@ -47,7 +47,7 @@ nav {
 
 .logo {
   font-family: $logo-font;
-  font-size: 1.2em;
+  font-size: 1.9em;
   cursor: pointer;
   color: #C6C8CA;
   font-weight: 400;

@@ -7,12 +7,9 @@ const Home = () => {
     <section id="home" className="hero">
         <div className="hero-main">
           <div className="hero-text">
-            <h1>Frontend Developer</h1>
+            <h1>Frontend Software Developer</h1>
             <p>
-              I design and develop scalable, applications using frontend tools
-              and technologies, ensuring every interaction is smooth and
-              meaningful. I design and develop scalable, applications using frontend tools
-              and technologies.
+            I design and develop user-friendly, scalable web applications. I focus on making every click and interaction smooth and simple. My knowledge of backend development helps me understand the full picture. <br /> I like turning ideas into real products that people enjoy using. I'm always working to improve my skills and build even better digital products. My goal is to create websites that people love to use every day.
             </p>
             <span className="social-links">
               <a

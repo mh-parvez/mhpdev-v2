@@ -61,7 +61,7 @@
     display: flex;
 
     svg {
-      font-size: 2.5em;
+      font-size: 2.3em;
       margin-right: 0.5em;
       color: #C6C8CA;
 
@@ -71,7 +71,7 @@
       }
     }
 
-    @media (max-width: $breakpoint-xs) {
+    @media (max-width: $breakpoint-sm) {
       width: 100%;
       justify-content: center;
       align-items: center;

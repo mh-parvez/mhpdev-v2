@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Candal&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+HU:wght@100..400&family=Signika+Negative:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 /* Color Palette */
 $background-light: #FFF; 
@@ -8,10 +11,12 @@ $background-dark: #1E1F23;
 $text-dark:#FBFDFD;
 
 /* Font Settings */
-$font-family-base: "Open Sans", sans-serif;
-$font-family-heading: "Candal", sans-serif;
-$logo-font: "Playwrite HU", cursive;
-$font-size-base: 16px;
+// $font-family-base: "Nunito Sans", sans-serif;
+$font-family-base: "Mulish", sans-serif;
+$font-family-heading: "Cal Sans", sans-serif;
+$logo-font: "Great Vibes", cursive;
+
+$font-size-base: 1em;
 $line-height-base: 1.6;
 
 /* Spacing (Padding & Margin) */
