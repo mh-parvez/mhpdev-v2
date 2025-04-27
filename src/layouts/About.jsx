@@ -2,7 +2,7 @@ const About = () => {
 	return (
 		<div className='about-container' id="about">
 			<div className='about-me'>
-				<h3>About me,</h3>
+				<h3>About me</h3>
 				<ul>
 					<li>
 						Hey, I'm Mehedi Hasan Parvez, A Frontend Software Developer. My
@@ -22,7 +22,7 @@ const About = () => {
 			</div>
 
 			<div className='about-skill' >
-				<h3>About skill,</h3>
+				<h3>About skill</h3>
 				<ul>
 					<li>
 						<b>Languages:</b> Javascript, Typescipt & C++ for
