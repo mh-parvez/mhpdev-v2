@@ -13,7 +13,7 @@
     height: auto;
     flex-direction: column;
     align-items: center;
-    padding-inline: .6rem;
+    padding-inline: 0.6rem;
     padding-block-end: 1em;
   }
 }
@@ -38,6 +38,12 @@
 
   @media (max-width: $breakpoint-md) {
     width: 100%;
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (max-width: $breakpoint-md) {
+  .about-me {
+    margin-bottom: 25px;
   }
 }
